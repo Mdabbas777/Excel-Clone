@@ -1,0 +1,64 @@
+
+Level 1 ****
+
+# 1 :- divide the layout in the sections(divs) - 1. Menu 2.Toolbar 3.Formula bar 4. grid 5. Sheets bar
+
+# 2 :- make each sections basic UI and attach related css to them
+
+# 3 :- make grid and provide scroll property to proper elements.
+
+Level 2  ****  
+
+# 1 :- Two way binding for every cell ( each cell personal property like left, right, center align bold, italic , underline )( UI changes and preform action at the same time. )
+        ==># 1.1 :- cell properties storage( 2D Array ).
+        ==># 1.2 :- find the current cell when any Toolbar item is clicked.( bold , italic , underline etc );
+        (use address bar in formula bar section to identify the current live cell.)
+        ==># 1.3 :- font-weight = bold/normal
+                    font-style = italic/normal
+                    textDecoration = underline/none;
+
+Level 3 ****
+
+# 1 :- Working on formula bar to implement expression entered in formula bar with the cells.
+
+#2 :- automatic change the value of dependent cell if any value of the cell in between is chaanged.     
+        eg A1 = 10 A2 = 30 A3 = A1 + A2 ( if you change value of A2 then A3 gets automatically updated. )
+
+Level 4 ****
+ 
+#1 :- Cycle detection in the cells using DFS.
+        Using DFS.
+        ( Used the concept of visited array and another dfsvisited array to make duplicate of the stack in the memory. )
+
+
+Level 5 ****
+
+#1 :- Advance graph algorithm
+        ==> to track the path of the cyclic path in the sheet using diffrent colours.
+        ==> visualization of the cyclic path in the sheet using colours.
+
+        ==> implementing delay in the dfs algo to visualize( Promises or async await ).
+        ==> dialog box to visualize the cyclic detection again.
+
+        ==> ( insite of JS , delay(setTimeOut) , Promises , Async/await.) 
+
+
+Level 6 ****
+
+#1 :- Multi sheets formation 
+        ===> Adding sheets ( UI )
+        ===> seperate data for every sheet
+        ===> Activating sheet 
+        ===> deleting sheets
+
+Level 7 ****
+
+#1 :- Advance functionalities
+        ===> select range , cut , copy , paste( select range to copy and cut. Reflect in DB also. )
+             ( paste is done error free. cells those are outside the sheet are not copied rest other are copied. )
+        ===> Download and Upload( save file  )
+
+
+
+
+
